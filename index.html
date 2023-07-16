@@ -3,75 +3,69 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>PSY-2 Casket Trading | Home</title>
+	<title>Home | PSY-2 Casket Trading</title>
 
-	<link rel="stylesheet" type="text/css" href="index.css">
-
-	<!-- Bootstrap CSS 4.6 -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- google font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=My+Soul&display=swap" rel="stylesheet">
 
 	<!-- animation -->
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-	<!-- icons -->
+	<!-- boostrap 4.6 -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+	<!-- bootstrap icons -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+	<!-- external css -->
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body class="bg-white">
-	<div class="text-center pt-3">
-		<img class="img-fluid" src="./images/logo-psy.png" width="240" height="200">
-	</div>
-
-	<!-- start of navbar -->
-	<nav class="d-inline navbar navbar-expand-lg navbar-dark pb-0">
-		<div class="container" style="background-color: purple;">
-			<a class="navbar-brand ml-3 ml-lg-0" href="#">PSY-2 Casket Trading</a>
-
-			<!-- Toggle Button -->
-			<button class="navbar-toggler" style="background-color: purple;" type="button" data-toggle="collapse" data-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-
-			<!-- Links -->
-			<div class="justify-content-end collapse navbar-collapse" id="toggleMobileMenu">
-				<ul class="navbar-nav text-center">
-					<li class="nav-item mr-3">
-						<a class="nav-link active" aria-current="page" href="#landing">Home</a>
-					</li>
-					<li class="nav-item mr-3">
-						<a class="nav-link" href="./about.html">About</a>
-					</li>
-					<li class="nav-item mr-3">
-						<a class="nav-link" href="./products.html">Products</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="./contact.html">Contact</a>
-					</li>
-				</ul>
-			</div>
+<body>
+	<!-- start navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand logo-font" href="#" style="color: purple;">Purple Haven</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item mx-2">
+					<a class="nav-link purple-link" href="#">Home</a>
+				</li>
+				<li class="nav-item mx-2">
+					<a class="nav-link purple-link" href="./about.html">About</a>
+				</li>
+				<li class="nav-item mx-2">
+					<a class="nav-link purple-link" href="./product.html">Product</a>
+				</li>
+				<li class="nav-item mx-2">
+					<a class="nav-link purple-link" href="./contact.html">Contact</a>
+				</li>
+			</ul>
 		</div>
+	</nav>
+	<!-- end of navbar -->
 
-		<!-- start of header -->
-		<div class="container bg-image" id="header">
-			<div class="row p-5 align-items-center" data-aos="fade-up">
-				<div class="col-12 col-lg-5 order-2 order-lg-1">
-					<h1 class="display-3">Live life to the fullest</h1>
-					<h5><small class="text-light">
-						Prepare for the unknown with PSY-2 Casket Trading, for in the face of uncertainty, it becomes your final act of love and protection.
-					</small></h5>
+	<!-- start of header -->
+	<div class="container-fluid bg-image" id="header">
+		<div class="row p-5 align-items-center" data-aos="fade-right">
+			<div class="col-12 col-lg-5 order-2 order-lg-1">
+				<h1 class="display-3" data-aos="fade-up">Live life to the fullest</h1>
+				<h5 data-aos="fade-right"><small class="text-light">
+					Prepare for the unknown with PSY-2 Casket Trading, for in the face of uncertainty, it becomes your final act of love and protection.
+				</small></h5>
 
-					<div class="mt-3">
-						<a href="#">
-							<button type="button" class="btn text-light" style="background-color: purple;">Learn more</button>
-						</a>
-					</div>
+				<div class="mt-3" data-aos="fade-right">
+					<a href="#">
+						<button type="button" class="btn text-light" style="background-color: purple;">Learn more</button>
+					</a>
 				</div>
 			</div>
 		</div>
-		<!-- end of header -->
-	</nav>
-	<!-- end of navbar -->
+	</div>
+	<!-- end of header -->
 
 	<!-- start of why choose us -->
 	<section id="whyChooseUs">
@@ -83,20 +77,20 @@
 		
 		<div class="container mt-3">
 			<div class="row">
-				<div class="col-12 col-md-6 col-lg-4 my-3 my-lg-0">
-					<div class="card border-0 shadow-sm h-100">
-						<img src="./images/image-quality.jpg" class="card-img-top" alt="..." data-aos="fade-up">
-						<div class="card-body" data-aos="fade-up">
+				<div class="col-12 col-md-6 col-lg-4 my-3 my-lg-0"data-aos="fade-right">
+					<div class="card border-0 shadow h-100">
+						<img src="./images/image-quality.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
 							<h5 class="card-title text-center">Quality</h5>
 							<p class="card-text text-center">Unparalleled strength and lasting elegance - Discover our exceptional collection of all-metal caskets, meticulously crafted to provide a dignified farewell that stands the test of time.</p>
 						</div>
 					</div>
 				</div>
 
-				<div class="col-12 col-md-6 col-lg-4 my-3 my-lg-0">
-					<div class="card border-0 shadow-sm h-100">
-						<img src="./images/image-affordability.jpg" class="card-img-top" alt="..." data-aos="fade-up">
-						<div class="card-body" data-aos="fade-up">
+				<div class="col-12 col-md-6 col-lg-4 my-3 my-lg-0" data-aos="fade-up">
+					<div class="card border-0 shadow h-100">
+						<img src="./images/image-affordability.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
 							<h5 class="card-title text-center">Affordability</h5>
 							<p class="card-text text-center">Affordability meets dignity - Explore our wide range of caskets designed to honor your loved ones without compromising your budget. Discover quality craftmanship and heartfelt value in every selection.</p>
 						</div>
@@ -104,9 +98,9 @@
 				</div>
 
 				<div class="col-12 col-md-6 col-lg-4 my-3 my-lg-0">
-					<div class="card border-0 shadow-sm h-100">
-						<img src="./images/image-transferability.jpg" class="card-img-top" alt="..." data-aos="fade-up">
-						<div class="card-body" data-aos="fade-up">
+					<div class="card border-0 shadow h-100" data-aos="fade-left">
+						<img src="./images/image-transferability.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
 							<h5 class="card-title text-center">Transferability</h5>
 							<p class="card-text text-center">Seamless transitions, timeless elegance - Discover our transferable caskets plans, thoughtfully designed to provide flexibility and ease during life's transitions. Experience the peace of mind knowing your loved one's final resting place can accompany them on their journey, wherever it may lead.</p>
 						</div>
@@ -117,11 +111,11 @@
 	</section>
 	<!-- end of why choose us -->
 
-	<!-- start of gallery -->
+	<!-- start of services -->
 	<section id="gallery">
 		<div class="text-center" data-aos="fade-up">
 			<div class="d-inline-block">
-				<h1 class="text-center mt-5 pb-2" style="border-bottom: 3px solid purple;">Gallery</h1>
+				<h1 class="text-center mt-5 pb-2" style="border-bottom: 3px solid purple;">Services</h1>
 			</div>
 		</div>
 
@@ -168,11 +162,11 @@
 			</div>
 		</div>
 	</section>
-	<!-- end of gallery -->
+	<!-- end of services -->
 
 	<!-- start of testimony -->
 	<section id="testimony">
-		<div class="container border shadow mt-5 p-3">
+		<div class="container shadow mt-5 p-3">
 			<div class="text-center" data-aos="fade-up">
 				<div class="d-inline-block">
 					<h1 class="text-center pb-2" style="border-bottom: 3px solid purple;">Testimonials</h1>
@@ -246,7 +240,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-md-4 mb-0" data-aos="fade-up">
+				<div class="col-md-4 mb-0" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
 					<div class="d-flex justify-content-center mb-4">
 						<img src="./images/testimony/image-janel.jpg"
 						class="rounded-circle shadow-1-strong" width="150" height="150" />
@@ -280,25 +274,25 @@
 	</section>
 	<!-- end of testimony -->
 
-
 	<!-- start of footer -->
-	<footer class="d-flex sticky-bottom justify-content-center mt-5 p-2 bg-dark text-white">
+	<footer class="d-flex sticky-bottom justify-content-center mt-5 p-2 text-white" style="background-color: rebeccapurple;">
 		<div class="mx-3">&copy;  2023 PSY-2 Casket Trading.</div>
 		<div>|</div>
 		<div class="mx-3">All rights reserved.</div>
 	</footer>
 	<!-- end of footer -->
 
-	<!-- Bootstrap JS Bundle -->
-	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<!-- bootstrap js -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 	<!-- animation -->
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script>
-		AOS.init();
+		AOS.init({
+			once: true,
+			duration: 1200,
+			delay: 600
+		});
 	</script>
 </body>
 </html>
