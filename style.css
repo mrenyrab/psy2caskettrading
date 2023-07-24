@@ -17,7 +17,7 @@ body {
 
 /*this image is for the header of index.html*/
 .bg-image {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url('./images/flower-bg.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('./images/flower-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -33,6 +33,5 @@ body {
     border-bottom: 1px solid #dee2e6! important;
   }
 }
-
 
 
